@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    /*<TextView
+        android:id="@+id/txtNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarea1"
+        />*/
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:hint="@string/edit_text_hint"
+        android:inputType="number"
+         />
+    <android.support.v7.widget.LinearLayoutCompat
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--Contiene los botones (,),%,AC -->
+
+        <Button
+            android:id="@+id/buttonabreparent"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="@string/buttonabreparent"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/buttoncierraparent"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="@string/buttoncierraparent"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/porcentaje"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:textSize="20dp"
+            android:text="@string/porcentaje"/>
+
+        <Button
+            android:id="@+id/AC"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:onClick="onClickLimpia"
+            android:text="@string/AC"
+            android:textSize="20dp" />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--Contiene los botones 7,8,9,÷ -->
+
+        <Button
+            android:id="@+id/siete"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/colorGris_Claro"
+            android:onClick="onClickBtn7"
+            android:text="@string/siete"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/ocho"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/colorGris_Claro"
+            android:onClick="onClickBtn8"
+            android:text="@string/ocho"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/nueve"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/colorGris_Claro"
+            android:onClick="onClickBtn9"
+            android:text="@string/nueve"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/divide"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:onClick="onClickDivision"
+            android:text="@string/divide"
+            android:textSize="20dp" />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--Contiene los botones 4,5,6,× -->
+
+        <Button
+            android:id="@+id/cuatro"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/colorGris_Claro"
+            android:onClick="onClickBtn4"
+            android:text="@string/cuatro"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/cinco"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/colorGris_Claro"
+            android:onClick="onClickBtn5"
+            android:text="@string/cinco"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/seis"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/colorGris_Claro"
+            android:onClick="onClickBtn6"
+            android:text="@string/seis"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/multiplica"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:onClick="onClickMultiplicacion"
+            android:text="@string/multiplica"
+            android:textSize="20dp" />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--Contiene los botones 1,2,3,- -->
+
+        <Button
+            android:id="@+id/uno"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/colorGris_Claro"
+            android:onClick="onClickBtn1"
+            android:text="@string/uno"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/dos"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/colorGris_Claro"
+            android:onClick="onClickBtn2"
+            android:text="@string/dos"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/tres"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/colorGris_Claro"
+            android:onClick="onClickBtn3"
+            android:text="@string/tres"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/resta"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:onClick="onClickResta"
+            android:text="@string/resta"
+            android:textSize="20dp" />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--Contiene los botones 0,.,=,+ -->
+
+        <Button
+            android:id="@+id/cero"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/colorGris_Claro"
+            android:onClick="onClickBtn0"
+            android:text="@string/cero"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/punto"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/colorGris_Claro"
+            android:onClick="onClickBtnPunto"
+            android:text="@string/punto"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/igual"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/colorCeleste"
+            android:onClick="onClickIgual"
+            android:text="@string/igual"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/suma"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:onClick="onClickSuma"
+            android:text="@string/suma"
+            android:textSize="20dp" />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v7.widget.LinearLayoutCompat>

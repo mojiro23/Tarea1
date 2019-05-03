@@ -1,0 +1,33 @@
+<resources>
+
+
+    <string name="edit_text_hint">0</string>
+    <string name="app_name">Tarea1</string>
+    <string name="textview">textview</string>
+    <string name="buttonabreparent">(</string>
+    <string name="buttoncierraparent">)</string>
+    <string name="porcentaje">%</string>
+    <string name="AC">AC</string>
+
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+    <string name="divide">÷</string>
+
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="multiplica">×</string>
+
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="resta">-</string>
+
+    <string name="cero">0</string>
+    <string name="punto">.</string>
+    <string name="igual">=</string>
+    <string name="suma">+</string>
+
+
+</resources>
